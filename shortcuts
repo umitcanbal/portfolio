@@ -1,0 +1,52 @@
+ctrl shift p ->  opens VSCode command line
+ctrl w       ->  closes the current tab
+ctrl ,       ->  opens settings
+ctrl altgr , ->  backtick
+ctrl j       ->  opens terminal
+ctrl b       ->  toggles the sidebar
+ctrl e       ->  open the tab to navigate recently opened files
+ctrl shift e ->  focusses on sidebar
+ctrl tab     ->  navitages through the opened tabs
+ctrl enter   ->  open the file by diving the screen
+alt ok tuşu  ->  moves the whole line up/down
+ctrl x       ->  cuts the whole line without highlighting
+ctrl enter   ->  inserts a line even if the cursor is not at the end of the current line
+shift tab    ->  reverse/undo tab
+ctrl k s     ->  opens shortcuts settings
+ctrl shift ç ->  jumps to next bracket
+shift alt a  ->  multi-line comment
+ctrl shift l ->  chooses all the matches of the highlighted word
+ctrl shift o ->  finds any variable/entity within the file
+shift alt f  ->  formats and organizes the code
+ctrl d       ->  highlights the word regardless of the cursors position within the word
+alt mouseclick ->  put multiple cursor
+alt shift ok tuşu  ->  copy the whole line upwards/downwards
+shift alt right/left arrow ->  smartselect
+ctrl shift p -- join lines ->  joins the line below to the current one
+
+
+ctrl alt l -> console logs the highlighted variable with a label
+shift alt c -> comments out the all console logs
+shift alt u -> uncomments out the all console logs
+shift alt d -> deletes out the all console logs
+
+
+imp ->  imports something from somewhere
+imd ->  imports destructuring
+enf ->  exports named function
+met ->  creates a method in a class component
+nfn ->  creates a named function
+dob ->  object destructuring
+clo ->  console logs with the label
+cp  ->  destructures props
+cs  ->  destructures state
+rce ->  creates class component
+est ->  creates the state object
+sst ->  creates this.setState({})
+anfn ->  creates an anonymous function
+rfce ->  creates functional component
+imrse ->  imports useState and useEffect
+
+
+***Cmder
+ctrl alt u -> goes to the parent directory
