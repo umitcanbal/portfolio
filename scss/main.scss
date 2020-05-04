@@ -79,7 +79,7 @@ main {
   grid-template-areas: 
   "bioimage bio bio"
   "job1 job2 job3";
-  grid-template-areas: repeat(3, 1fr);
+  grid-template-columns: repeat(3, 1fr);
 
   .bio-image {
     grid-area: bioimage;
@@ -115,12 +115,12 @@ main {
 // Work/Projects
 .projects {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  grid-gap: 0.7rem;
+  grid-template-columns: repeat(2, 1fr);
+  grid-gap: 10rem;
 
   img {
     width: 100%;
-    border: 3px #fff solid;
+    border: 3px darken($primary-color, 50) solid;
 
     &:hover {
       opacity: 0.5;
